@@ -1,0 +1,15 @@
+# Explore Classification Methods
+
+## Instruction
+In Scikit-learn documentation, you'll find a large list of ways to classify data. Do a little scavenger hunt in these docs: your goal is to look for classification methods and match a dataset in this curriculum, a question you can ask of it, and a technique of classification. Create a spreadsheet or table in a .doc file and explain how the dataset would work with the classification algorithm.
+
+## Classification Methods, Datasets, and Applications
+
+| Classification Method   | Dataset                       | Question                                                                                     | How the Dataset Works with the Classification Algorithm                                                                                                     |
+|-------------------------|-------------------------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Decision Trees          | Iris Dataset                  | Can we classify iris plants into one of three species based on their sepal and petal measurements? | The Iris dataset contains measurements of sepal length, sepal width, petal length, and petal width of three species of iris plants. Decision Trees can be used to build a model that learns the decision rules based on these features to classify iris plants into their respective species. |
+| Support Vector Machines (SVM) | Breast Cancer Dataset       | Can we predict whether a breast cancer tumor is malignant or benign based on its characteristics? | The Breast Cancer dataset contains features like mean radius, mean texture, mean perimeter, etc., describing characteristics of cell nuclei. SVM can be applied to this dataset to find the hyperplane that best separates malignant and benign tumors in the feature space. |
+| K-Nearest Neighbors (KNN)| Wine Dataset                   | Can we classify wines into one of three cultivar classes based on their chemical composition?  | The Wine dataset contains the results of a chemical analysis of wines grown in a specific area of Italy. KNN can be used to classify wines by finding the most common class among the K-nearest instances in the feature space. |
+| Random Forest            | Titanic Dataset                | Can we predict whether a passenger on the Titanic survived based on their attributes?           | The Titanic dataset contains information about passengers like age, sex, class, etc. Random Forest can be used to build an ensemble of decision trees to predict survival outcomes based on these features. |
+| Naive Bayes              | SMS Spam Collection Dataset    | Can we classify SMS messages as spam or ham (not spam) based on their content?                 | The SMS Spam Collection dataset contains SMS messages labeled as spam or ham. Naive Bayes can be used to calculate the probability of a message being spam or ham based on the occurrence of words in the message. |
+
